@@ -1,0 +1,29 @@
+{
+  "name": "ancient-chimes",
+  "version": "1.0.0",
+  "description": "League of Legends frind list exporter",
+  "author": "Kaori 'ulg' Koshiya <ulg000@gmail.com>",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/ulgg/ancient-chimes",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "lcu-connector": "^1.0.2"
+  },
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-builder": "^20.38.5"
+  },
+  "build": {
+    "win": {
+      "target": "zip"
+    }
+  },
+  "files": [
+    "!**/.vscode"
+  ]
+}

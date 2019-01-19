@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ancient Chimes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="renderer.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <!--
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4">Ancient Chimes</h1>
+        </div>
+      </div>
+    -->
+      <div class="row mt-2">
+        <div class="col-1">
+          <button type="button" class="btn btn-outline-secondary"
+              id="loadButton"
+              onclick="loadSnInfos()">
+            Load
+          </button>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn btn-outline-secondary"
+              id="dlButton" href="#"
+              onclick="jsonDownload()"
+              download="FriendList.txt">
+            Download
+          </button>
+        </div>
+        <div class="col-9 pl-1">
+          <div class="input-group">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile04">
+              <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Upload</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-12">
+          <table id="snInfoTable" class="table table-sm">
+            <thead>
+              <tr>
+                <td>#</td>
+                <td>Name</td>
+                <td>PuuId</td>
+                <td>SummonerId</td>
+                <td>AccountId</td>
+                <td>Last Played Date</td>
+              </tr>
+            </thead>
+            <tbody id="snInfoTbody">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js');
+    </script>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <!-- Import scripts  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+  </body>
+</html>
