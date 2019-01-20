@@ -90,7 +90,7 @@ yarn dist
 
 - How did you learn about them?
 
->Qiita, StackOverflow, personal blog, [References](#Thanks-and-References)
+>Qiita, StackOverflow, personal blog, [References](#Thanks-&-References)
 
 - Which League Client API are you using?
 
@@ -116,7 +116,7 @@ yarn dist
 
 >Yes. After the contest end. I already created features getting current names but it need unallowed APIs. Getting last played date too.
 
-# Thanks and References
+# Thanks & References
 
 I counldn't create this app without them.
 
