@@ -7,25 +7,26 @@ const summonerUtil = remote.require('./app/lib/summonerUtil')
 
 const { ipcRenderer } = require('electron')
 
-// function loadSnInfos(){
-//   loadSnInfos(null)
-// }
-
 function loadSnInfos(){
 
-  // set LCU info to gloval value in main process
-  getLcuInfo()
+  // remove row except first row
+  let snInfoTable = document.querySelector('#snInfoTable');
+  let rowCount = snInfoTable.rows.length;
+  for (let i = rowCount - 1; i > 0; i--) {
+    snInfoTable.deleteRow(i);
+  }
+
   // get summoner info
   let snNames = getSnNames()
-  let snInfos = getSnInfos(snNames)
+  //let snInfos = getSnInfos(snNames)
   // add last played date to summoner info
-  addLastPlayedDate(snInfos)
+  //addLastPlayedDate(snInfos)
 
   let table = document.querySelector('#snInfoTbody') // Table Body
   let fragment = document.createDocumentFragment();
   let i = 1
 
-  snInfos.forEach((snInfo) => {
+  snNames.forEach((snName) => {
     let tr = document.createElement('TR')
     let tdNo = document.createElement('TD')
     let tdSnName = document.createElement('TD')
@@ -35,19 +36,9 @@ function loadSnInfos(){
     let tdAccId = document.createElement('TD')
     let tdLastPlay = document.createElement('TD')
     tdNo.appendChild(document.createTextNode(i))
-    tdSnName.appendChild(document.createTextNode(snInfo.displayName))
-    tdCrName.appendChild(document.createTextNode(''))
-    tdPuuid.appendChild(document.createTextNode(snInfo.puuid))
-    tdSnId.appendChild(document.createTextNode(snInfo.summonerId))
-    tdAccId.appendChild(document.createTextNode(snInfo.accountId))
-    tdLastPlay.appendChild(document.createTextNode(snInfo.lastPlayedDate))
+    tdSnName.appendChild(document.createTextNode(snName))
     tr.appendChild(tdNo)
     tr.appendChild(tdSnName)
-    tr.appendChild(tdCrName)
-    tr.appendChild(tdPuuid)
-    tr.appendChild(tdSnId)
-    tr.appendChild(tdAccId)
-    tr.appendChild(tdLastPlay)
     fragment.appendChild(tr) // add to fragment
     i += 1
   })
@@ -56,7 +47,7 @@ function loadSnInfos(){
   table.appendChild(fragment);
   
   // make url for download json
-  let content = JSON.stringify(snInfos)
+  let content = JSON.stringify(snNames)
   // console.log('content = ' + content)
   let blob = new Blob([ content ], { 'type' : 'text/plain' })
   let dlButton = document.querySelector('#dlBtn') // Button
@@ -66,7 +57,7 @@ function loadSnInfos(){
   dlButton.href = dlUrl
 
   // stop LCU connector
-  stopLcuCon()
+  //stopLcuCon()
 };
 
 function getLcuInfo() {
@@ -84,7 +75,7 @@ function getSnNames() {
   let snNames = ipcRenderer.sendSync('getSnNames', 'Render getSnNames ping')
   return snNames;
 }
-
+/*
 function getSnInfos(snNames) {
   let snInfo
   let snInfos = []
@@ -114,7 +105,7 @@ function addLastPlayedDate(snInfos) {
   })
   return snInfos
 }
-
+*/
 function expFile() {
   // get download url from button href
   let dlButton = document.querySelector('#dlBtn') // Button
@@ -128,6 +119,7 @@ function expFile() {
   window.URL.revokeObjectURL(dlUrl)
 }
 
+/*
 function setFileNameToInput() {
   let fileNameBtn = document.getElementById("fileNameBtn")
   let fileName = fileNameBtn.files[0].path
@@ -210,5 +202,5 @@ function setCurrentNames(snInfos) {
   return snInfos
 }
 
-
+*/
 
