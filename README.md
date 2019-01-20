@@ -146,7 +146,7 @@ I counldn't create this app without them.
 - A Twitch viewer recommended Visual Studio Code Editor for me. Thanks.
 
 ## Next
-Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, I can get the became friend date from lol-sore, and mission notification.
+Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, I can get the became friend date from lol-store, and mission notification.
 
 ## Me
 
