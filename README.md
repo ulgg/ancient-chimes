@@ -90,7 +90,7 @@ yarn dist
 
 - How did you learn about them?
 
->Qiita, StackOverflow, personal blog, [References](#Thanks-and-References)
+>Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments
 
 - Which League Client API are you using?
 
@@ -116,6 +116,13 @@ yarn dist
 
 >Yes. After the contest end. I already created features getting current names but it need unallowed APIs. Getting last played date too.
 
+# Task
+- [x] Get current summoner name (not includ yet but finished)
+- [x] Get last played date from lol-carreer-stats (not includ yet but finished)
+- [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
+- [ ] Understand Sync/Await (I counldn' use Async. So I used IPC for synchronous request loop)
+- [ ] Get correct last played date (I can't get correct lol-carreer-stats. some friend's date is older or null)
+
 # Thanks and References
 
 I counldn't create this app without them.
@@ -123,9 +130,18 @@ I counldn't create this app without them.
 - [rift-explorer](https://github.com/Pupix/rift-explorer) - API reference. You can test League Client API call easily
 - [lcu-connector](https://github.com/pupix/lcu-connector) - You can call League Client APIs in Node.js
 - [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - You can learn how to use lcu-connector
-- [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - About League Client API
+- [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron)
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
 - [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
+- [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - About League Client API
+- [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
+- [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
+- [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
+- [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
+- [Electron Main process Http Request (via auth proxy)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
+- [Electron communication process by IPC](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
+- [async/await with forEach](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
+- Twitch viewes comments. Telling Visual Studio Code Editor.
 
 ## Me
 
