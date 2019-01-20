@@ -1,6 +1,24 @@
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
+>Which League Client API are you using?
+(1)lol-game-client-chat
+(2)lol-summoner
+(3)lol-career-stats
+
+>What has prompted the use of this API?
+You can download friend list for saving current summoner names.
+You upload old friend list and you can check current summoner name.
+And you can add friends again!
+When you transfer your account to other region server,
+your friend list'll be removed.
+so I created this app for saving friend names.
+
+>How are you planning on using the data you gather from this API?
+Read summoner names in friend list.
+Read summoner info (summoner id, account id, puuid) by summoner name.
+Read last played date by puuid.
+Read current summoner name by summoner id.
 
 This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
 
