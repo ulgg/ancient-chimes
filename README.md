@@ -4,8 +4,9 @@ League of Legends Friend List Exporter using League Client API
 
 <img src="https://user-images.githubusercontent.com/11805940/51436093-b1e3a080-1cc9-11e9-8ba6-9b5775fb5d02.png">
 
-
 ## Installation & Setup
+
+I checked this app working on windows. I'm not sure mac.
 
 1. Download [ancient-chimes-X.X.X-win.zip](https://github.com/ulgg/ancient-chimes/releases)
 
@@ -58,7 +59,7 @@ To clone and run this repository you'll need them.
 1. [Git](https://git-scm.com/downloads)
 2. [Node.js](https://nodejs.org/en/download/) (with [npm](http://npmjs.com)) 
 3. [yarn](https://yarnpkg.com/en/docs/install) (like fast npm) 
-4  From command prompt
+4.  From command prompt
 
 ```bash
 # Clone this repository
@@ -134,11 +135,11 @@ I counldn't create this app without them.
 - [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron)
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
 - [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
+- [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
 - [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - About League Client API
 - [Communication Channel Refresh (Riot Games API)](https://www.riotgames.com/en/DevRel/new-comms) - You can Ask question. Discord channel, Twitter etc
 - [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
-- [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
 - [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
 - [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
 - [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
