@@ -143,7 +143,7 @@ I counldn't create this app without them.
 - [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
 - [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
 - [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
-- Twitch viewes comments. Telling Visual Studio Code Editor.
+- A Twitch viewer recommended Visual Studio Code Editor for me. Thanks.
 
 ## Me
 
