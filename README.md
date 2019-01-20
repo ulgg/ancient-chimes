@@ -55,7 +55,7 @@ Download the friend list as text
 
 To clone and run this repository you'll need them.
 
-1. [Git](https://git-scm.com)
+1. [Git](https://git-scm.com/downloads)
 2. [Node.js](https://nodejs.org/en/download/) (with [npm](http://npmjs.com)) 
 3. [yarn](https://yarnpkg.com/en/docs/install) (like fast npm) 
 4  From command prompt
@@ -82,7 +82,7 @@ yarn dist
 
 - Which technologies do you use?
 
->Node.js, Electron, JavaScript, HTML, Bootstrap, Visual Studio Code(Editor)
+>Node.js, npm, yarn, Electron, JavaScript, HTML, Bootstrap, Git, Wireshark, Fiddler 4, HttpRequest, SubLime(Editor), Visual Studio Code(Editor), Chromium Embedded Framework(CEF)
 
 - Why did you chose them?
 
@@ -90,7 +90,7 @@ yarn dist
 
 - How did you learn about them?
 
->Qiita, StackOverflow, personal blog, [References](#Thanks-&-References)
+>Qiita, StackOverflow, personal blog, [References](#Thanks-and-References)
 
 - Which League Client API are you using?
 
@@ -108,7 +108,7 @@ yarn dist
 
 >For entry to [The Riot Games API Challenge 2018](https://www.riotgames.com/en/DevRel/the-riot-games-api-challenge-2018). I wanted to download friend list when I transfered my NA account to Japan server 3 years ago. And I and my friend wish friend list would have last login date. Then we can remove some unactive friends and find new friends.
 
-- I Can't find/add friend!
+- I can't find/add friend!
 
 >If players change thier name you can't find them by old name.
 
@@ -116,16 +116,16 @@ yarn dist
 
 >Yes. After the contest end. I already created features getting current names but it need unallowed APIs. Getting last played date too.
 
-# Thanks & References
+# Thanks and References
 
 I counldn't create this app without them.
 
-- [rift-explorer](https://github.com/Pupix/rift-explorer) - API Doc and I can test LCU API call easily
-- [lcu-connector](https://github.com/pupix/lcu-connector) - I can use LCU APIs in Node.js
-- [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - I learned how to use lcu-connector
-- [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - I use these APIs
+- [rift-explorer](https://github.com/Pupix/rift-explorer) - API reference. You can test League Client API call easily
+- [lcu-connector](https://github.com/pupix/lcu-connector) - You can call League Client APIs in Node.js
+- [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - You can learn how to use lcu-connector
+- [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - About League Client API
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
-- [electron-builder](https://github.com/electron-userland/electron-builder) - I can make this app as exe file
+- [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
 
 ## Me
 
@@ -133,10 +133,7 @@ Playing Games and Drawing.
 
 I hope that this app helps other players to create apps using League Client API(LCU). :)
 
-- [Twitter](https://twitter.com/ulg_)
-- [League of Legends](http://jp.op.gg/summoner/userName=ulg)
-- [Twitch](https://www.twitch.tv/ulg_)
-- [pixiv](https://pixiv.me/ulg)
+[Twitter](https://twitter.com/ulg_) / [League of Legends(opgg)](http://jp.op.gg/summoner/userName=ulg) / [Twitch](https://www.twitch.tv/ulg_) / [pixiv](https://pixiv.me/ulg)
 
 ## License
 
