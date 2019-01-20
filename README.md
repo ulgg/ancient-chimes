@@ -118,7 +118,7 @@ yarn dist
 
 # Task
 - [x] Get current summoner name (not includ yet but finished)
-- [x] Get last played date from lol-carreer-stats (not includ yet but finished)
+- [x] Get last played date from lol-carreer-stats (not include yet but finished)
 - [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
 - [ ] Understand Sync/Await (I counldn' use Async. So I used IPC for synchronous request loop)
 - [ ] Get correct last played date (I can't get correct lol-carreer-stats. some friend's date is older or null)
@@ -138,9 +138,9 @@ I counldn't create this app without them.
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
 - [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
 - [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
-- [Electron Main process Http Request (via auth proxy)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
-- [Electron communication process by IPC](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
-- [async/await with forEach](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
+- [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
+- [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
+- [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
 - Twitch viewes comments. Telling Visual Studio Code Editor.
 
 ## Me
