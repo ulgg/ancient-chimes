@@ -91,7 +91,7 @@ yarn dist
 
 - How did you learn about them?
 
->I had 0 knowledge about them. I learned them from Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments. I have read the "all" messages on [Riot Games DevRel Discord](https://discord.gg/riotapi ) #lcu-api and #api-challenge-2018 channel.
+>I had 0 knowledge about them. I learned them from Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments. I have read the "all" messages on [Riot Games Dev Discord](https://discord.gg/riotapi ) #lcu-api and #api-challenge-2018 channel.
 
 - Which League Client API are you using?
 
