@@ -91,7 +91,7 @@ yarn dist
 
 - How did you learn about them?
 
->I had 0 knowledge about Node.js, Express, Pug, Electron, League Client API. I learned them from Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments
+>I had 0 knowledge about Node.js, Express, Pug, Electron, League Client API. I learned them from Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments. I have read the "all" messages on Riot Games API Discord channel #lcu-api and #api-challenge-2018.
 
 - Which League Client API are you using?
 
@@ -136,7 +136,7 @@ I counldn't create this app without them.
 - [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
 - [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
 - [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - About League Client API
-- [Communication Channel Refresh (Riot Games API)](https://www.riotgames.com/en/DevRel/new-comms) - You can Ask question. Discord channel, Twitter etc
+- [Communication Channel Refresh (Riot Games API)](https://www.riotgames.com/en/DevRel/new-comms) - Discord channel #lcu-api and #api-challenge-2018 are helpful. See pins!
 - [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
 - [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
