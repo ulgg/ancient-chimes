@@ -90,7 +90,8 @@ yarn dist
 
 - How did you learn about them?
 
->Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments
+>I had 0 knowledge about Node.js, Express, Pug, Electron, League Client API.
+Qiita, StackOverflow, Personal blogs, [References](#Thanks-and-References), Twitch viewers comments
 
 - Which League Client API are you using?
 
@@ -98,7 +99,7 @@ yarn dist
 
 - What has prompted the use of this API?
 
->Read summoner names in friend list from client.
+>Read summoner names in friend list from client. I can't get friend list from normal Riot Games API.
 
 - How are you planning on using the data you gather from this API?
 
