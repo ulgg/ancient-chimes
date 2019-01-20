@@ -145,6 +145,9 @@ I counldn't create this app without them.
 - [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
 - A Twitch viewer recommended Visual Studio Code Editor for me. Thanks.
 
+## Next
+Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, I can get the became friend date from lol-sore, and mission notification.
+
 ## Me
 
 Playing Games and Drawing.
