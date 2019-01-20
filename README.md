@@ -33,7 +33,7 @@ enable_swagger: true
 
 <img src="https://user-images.githubusercontent.com/11805940/51436154-e2780a00-1cca-11e9-9011-8aa11906eb3e.png">
 
-*if you see "Windows protected your PC" popup try this
+*if you see "Windows protected your PC" popup, try this
 
 >Desktop > click windows mark > type "Windows Defender" and click > select "App & browser control" > choose Off in "Check apps and files" section
 
@@ -51,8 +51,34 @@ Download the friend list as text
 
 <img src="https://user-images.githubusercontent.com/11805940/51436328-667fc100-1cce-11e9-9986-4c405e27de2e.png">
 
+## Run from source
 
-**Clone and run for a quick way to see Electron in action.**
+To clone and run this repository you'll need them.
+
+1. [Git](https://git-scm.com)
+2. [Node.js](https://nodejs.org/en/download/) (with [npm](http://npmjs.com)) 
+3. [yarn](https://yarnpkg.com/en/docs/install) (like fast npm) 
+4  From command prompt
+
+```bash
+# Clone this repository
+git clone https://github.com/ulgg/ancient-chimes
+# Go into the repository
+cd ancient-chimes
+# Install dependencies
+yarn install
+# Run the app
+yarn start
+```
+
+## Build from source
+
+```bash
+# Make exe(zip) of the app
+yarn dist
+```
+
+## 
 
 >Which League Client API are you using?
 (1)lol-game-client-chat
@@ -85,32 +111,22 @@ A basic Electron application needs just these files:
 
 You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
 
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-## Resources for Learning Electron
+- [The Riot Games API Challenge 2018](https://www.riotgames.com/en/DevRel/the-riot-games-api-challenge-2018) - The contest rule
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+## Thanks & References
+
+I counldn't create this app without them.
+
+- [rift-explorer](https://github.com/Pupix/rift-explorer) - I can try calling LCU API easily
+- [lcu-connector](https://github.com/pupix/lcu-connector) - I can use LCU APIs in Node.js
+- [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - I learned how to use lcu-connector
+- [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - I use these APIs
+- [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
+- [electron-builder](https://github.com/electron-userland/electron-builder) - I can make this app as exe file
 
 ## License
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+Ancient Chimes isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
