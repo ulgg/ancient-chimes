@@ -120,7 +120,7 @@ yarn dist
 - [x] Get current summoner name (not includ yet but finished)
 - [x] Get last played date from lol-carreer-stats (not include yet but finished)
 - [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
-- [ ] Understand Sync/Await (I counldn' use Async. So I used IPC for synchronous request loop)
+- [ ] Understand Async/Await (I counldn't use Async. So I used IPC for synchronous request loop)
 - [ ] Get correct last played date (I can't get correct lol-carreer-stats. some friend's date is older or null)
 
 # Thanks and References
