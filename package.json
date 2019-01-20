@@ -21,11 +21,11 @@
   "build": {
     "win": {
       "target": "zip"
-    }
-  },
-  "files": [
-    "!**/.vscode",
-    "!**/README.md",
-    "!**/dist"
-  ]
+    },
+    "files": [
+      "!**/.vscode",
+      "!**/README.md",
+      "!**/dist"
+    ]
+  }
 }

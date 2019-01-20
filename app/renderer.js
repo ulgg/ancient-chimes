@@ -1,11 +1,8 @@
 'use strict'
 
 const electron = require('electron')
-const fs = require('fs')
-const remote = electron.remote
-const summonerUtil = remote.require('./app/lib/summonerUtil')
-
 const { ipcRenderer } = require('electron')
+const { shell } = require('electron')
 
 function loadSnInfos(){
 
@@ -117,6 +114,10 @@ function expFile() {
   link.click()
   // release url cache
   window.URL.revokeObjectURL(dlUrl)
+}
+
+function openLink(event) {
+  shell.openExternal('https://github.com/ulgg/ancient-chimes');
 }
 
 /*
