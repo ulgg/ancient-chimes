@@ -1,6 +1,59 @@
-# electron-quick-start
+# <img src="build/icon.png" width="48"> Ancient Chimes
+
+League of Legends Friend List Exporter.
+
+<img src="https://user-images.githubusercontent.com/11805940/51436093-b1e3a080-1cc9-11e9-8ba6-9b5775fb5d02.png">
+
+
+## Installation & Setup
+
+1. Download [ancient-chimes-X.X.X-win.zip](https://github.com/ulgg/ancient-chimes/releases)
+
+2. Extract the zip
+
+3. Open "system.yaml" in here
+
+```bash
+C:\Riot Games\League of Legends\RADS\projects\league_client\releases\<LATEST_VERSION>\deploy
+```
+
+4. Add the 1 line code into 2nd line
+
+```bash
+enable_swagger: true
+```
+
+<img src="https://user-images.githubusercontent.com/11805940/51436142-8319fa00-1cca-11e9-8367-8a536962f595.png">
+
+*You need to add the code everytime LoL client updated
+
+5. Start League of Legends client
+
+6. Double click "ancient-chimes.exe" in the extracted folder
+
+<img src="https://user-images.githubusercontent.com/11805940/51436154-e2780a00-1cca-11e9-9011-8aa11906eb3e.png">
+
+*if you see "Windows protected your PC" popup try this
+
+>Desktop > click windows mark > type "Windows Defender" and click > select "App & browser control" > choose Off in "Check apps and files" section
+
+## Quick start
+
+1. Load
+
+Get Summoner names from friend list
+
+<img src="https://user-images.githubusercontent.com/11805940/51436215-5b2b9600-1ccc-11e9-95ff-e1d8997fb1e4.png">
+
+2. Export
+
+Download the friend list as text
+
+<img src="https://user-images.githubusercontent.com/11805940/51436328-667fc100-1cce-11e9-9986-4c405e27de2e.png">
+
 
 **Clone and run for a quick way to see Electron in action.**
+
 >Which League Client API are you using?
 (1)lol-game-client-chat
 (2)lol-summoner
