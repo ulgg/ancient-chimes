@@ -1,6 +1,6 @@
 # <img src="build/icon.png" width="48"> Ancient Chimes
 
-League of Legends Friend List Exporter.
+League of Legends Friend List Exporter using League Client API
 
 <img src="https://user-images.githubusercontent.com/11805940/51436093-b1e3a080-1cc9-11e9-8ba6-9b5775fb5d02.png">
 
