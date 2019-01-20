@@ -134,6 +134,7 @@ I counldn't create this app without them.
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
 - [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
 - [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - About League Client API
+- [Communication Channel Refresh](https://www.riotgames.com/en/DevRel/new-comms) - You can Ask question. Discord channel, Twitter etc
 - [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
 - [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
