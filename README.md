@@ -37,7 +37,7 @@ enable_swagger: true
 
 >Desktop > click windows mark > type "Windows Defender" and click > select "App & browser control" > choose Off in "Check apps and files" section
 
-## Quick start
+## To use
 
 1. Load
 
@@ -71,62 +71,75 @@ yarn install
 yarn start
 ```
 
-## Build from source
+Build exe from source
 
 ```bash
 # Make exe(zip) of the app
 yarn dist
 ```
 
-## 
+## About
 
->Which League Client API are you using?
-(1)lol-game-client-chat
-(2)lol-summoner
-(3)lol-career-stats
+- Which technologies do you use?
 
->What has prompted the use of this API?
-You can download friend list for saving current summoner names.
-You upload old friend list and you can check current summoner name.
-And you can add friends again!
-When you transfer your account to other region server,
-your friend list'll be removed.
-so I created this app for saving friend names.
+>Node.js, Electron, JavaScript, HTML, Bootstrap, Visual Studio Code(Editor)
 
->How are you planning on using the data you gather from this API?
-Read summoner names in friend list.
-Read summoner info (summoner id, account id, puuid) by summoner name.
-Read last played date by puuid.
-Read current summoner name by summoner id.
+- Why did you chose them?
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
+>Because I wanted friends use the app easily. First, I was going to create web app with Express, Pug, Google App Engine. But I noticed I couldn't call League Client API from internet. If my friends want to use the app, they need to install some unpopular softwares and need effort to learn them. Although I spend around 2 weeks to learn them.
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
+- How did you learn about them?
 
-A basic Electron application needs just these files:
+>Qiita, StackOverflow, personal blog, [References](#Thanks-and-References)
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+- Which League Client API are you using?
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
+>(1)lol-game-client-chat
 
+- What has prompted the use of this API?
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+>Read summoner names in friend list from client.
 
-- [The Riot Games API Challenge 2018](https://www.riotgames.com/en/DevRel/the-riot-games-api-challenge-2018) - The contest rule
+- How are you planning on using the data you gather from this API?
 
-## Thanks & References
+>Download friend list for saving current friend's summoner name. If you transfer your account to other region once and you come back the old region. You can recovery friends by the exported friend list.
+
+- Why did you create this?
+
+>For entry to [The Riot Games API Challenge 2018](https://www.riotgames.com/en/DevRel/the-riot-games-api-challenge-2018). I wanted to download friend list when I transfered my NA account to Japan server 3 years ago. And I and my friend wish friend list would have last login date. Then we can remove some unactive friends and find new friends.
+
+- I Can't find/add friend!
+
+>If players change thier name you can't find them by old name.
+
+- Will you add some features to soulve them?
+
+>Yes. After the contest end. I already created features getting current names but it need unallowed APIs. Getting last played date too.
+
+# Thanks and References
 
 I counldn't create this app without them.
 
-- [rift-explorer](https://github.com/Pupix/rift-explorer) - I can try calling LCU API easily
+- [rift-explorer](https://github.com/Pupix/rift-explorer) - API Doc and I can test LCU API call easily
 - [lcu-connector](https://github.com/pupix/lcu-connector) - I can use LCU APIs in Node.js
 - [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - I learned how to use lcu-connector
 - [League Client APIs](https://developer.riotgames.com/league-client-apis.html) - I use these APIs
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
 - [electron-builder](https://github.com/electron-userland/electron-builder) - I can make this app as exe file
 
+## Me
+
+Playing Games and Drawing.
+
+I hope that this app helps other players to create apps using League Client API(LCU). :)
+
+- [Twitter](https://twitter.com/ulg_)
+- [League of Legends](http://jp.op.gg/summoner/userName=ulg)
+- [Twitch](https://www.twitch.tv/ulg_)
+- [pixiv](https://pixiv.me/ulg)
+
 ## License
+
+MIT
 
 Ancient Chimes isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
