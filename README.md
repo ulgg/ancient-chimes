@@ -81,7 +81,9 @@ yarn dist
 
 # Thanks and References
 
-I counldn't create this app without them.
+My learning history.
+
+You can create an app using League Client API too.
 
 - [Git install - even monkey can understand (JP)](https://backlog.com/ja/git-tutorial/intro/intro2_1.html)
 - [nvm+Node.js+npm install (JP)](https://mosapride.com/index.php/2018/04/23/post-810/) - manage node+npm version
