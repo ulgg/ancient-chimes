@@ -96,14 +96,14 @@ You can create an app using League Client API too. Like send a notification, sen
 - [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - You can learn how to use lcu-connector
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
 - [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
-- [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
-- [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
-- [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
-- [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
+- [Let's try to create an Electron app (JP)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
+- [Electron Main process Http Request (via auth proxy)(JP)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
+- [Electron communication process by IPC(JP)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
+- [async/await with forEach(JP)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
 - [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
 - [League Client APIs (Riot Games)](https://developer.riotgames.com/league-client-apis.html) - About League Client API
 - [Communication Channel Refresh (Riot Games)](https://www.riotgames.com/en/DevRel/new-comms) - Discord channel #lcu-api and #api-challenge-2018 are helpful. See pins!
-- [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
+- [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE (Riot Games)](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
 - A [Twitch](https://www.twitch.tv/ulg_) viewer recommended Visual Studio Code Editor for me. Thanks.
 
@@ -147,7 +147,7 @@ You can create an app using League Client API too. Like send a notification, sen
 
 # Tasks
 
-- [x] Get current summoner name (not includ yet but finished)
+- [x] Get current summoner name (not include yet but finished)
 - [x] Get last played date from lol-carreer-stats (not include yet but finished)
 - [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
 - [ ] Understand Async/Await (I counldn't use Async. So I used IPC for synchronous request loop)
