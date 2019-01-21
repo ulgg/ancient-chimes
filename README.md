@@ -86,22 +86,22 @@ I counldn't create this app without them.
 - [Git install - even monkey can understand (JP)](https://backlog.com/ja/git-tutorial/intro/intro2_1.html)
 - [nvm+Node.js+npm install (JP)](https://mosapride.com/index.php/2018/04/23/post-810/) - manage node+npm version
 - [yarn install (JP)](https://qiita.com/suisui654/items/1b89446e03991c7c2c3d) (faster npm) 
+- [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron) - IDE
 - [rift-explorer](https://github.com/Pupix/rift-explorer) - API reference. You can test League Client API call
 - [lcu-connector](https://github.com/pupix/lcu-connector) - You can call League Client APIs in Node.js
 - [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - You can learn how to use lcu-connector
-- [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron)
 - [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
 - [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
+- [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
+- [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
+- [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
+- [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
 - [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
 - [League Client APIs (Riot Games)](https://developer.riotgames.com/league-client-apis.html) - About League Client API
 - [Communication Channel Refresh (Riot Games)](https://www.riotgames.com/en/DevRel/new-comms) - Discord channel #lcu-api and #api-challenge-2018 are helpful. See pins!
 - [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
-- [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
-- [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
-- [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
-- [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
-- A Twitch viewer recommended Visual Studio Code Editor for me. Thanks.
+- A [Twitch](https://www.twitch.tv/ulg_) viewer recommended Visual Studio Code Editor for me. Thanks.
 - [Quick Note of this README (JP)(My blog)](https://ulg0.blogspot.com/2019/01/the-riot-games-api-challenge-2018.html)
 
 ## FAQ
@@ -160,7 +160,7 @@ Interested in League Voice with discord voice, notification +-LP at end of game 
 
 Playing Games and Drawing.
 
-I hope that this app helps other players to create apps using League Client API(LCU). :)
+I hope that this app'll help other players to create apps using League Client API(LCU). :)
 
 [Twitter](https://twitter.com/ulg_) / [League of Legends(opgg)](http://jp.op.gg/summoner/userName=ulg) / [Twitch](https://www.twitch.tv/ulg_) / [pixiv](https://pixiv.me/ulg)
 
