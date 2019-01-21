@@ -52,9 +52,11 @@ Download the friend list as text
 
 <img src="https://user-images.githubusercontent.com/11805940/51436328-667fc100-1cce-11e9-9986-4c405e27de2e.png">
 
-## Run from source
+## To develop
 
 To clone and run this repository you'll need them.
+
+More references [jump](#Thanks-and-References)
 
 1. [Git](https://git-scm.com/downloads)
 2. [Node.js](https://nodejs.org/en/download/) (with [npm](http://npmjs.com)) 
