@@ -79,15 +79,40 @@ Build exe from source
 yarn dist
 ```
 
-## About
+# Thanks and References
+
+I counldn't create this app without them.
+
+- [Git install - even monkey can understand (JP)](https://backlog.com/ja/git-tutorial/intro/intro2_1.html)
+- [nvm+Node.js+npm install (JP)](https://mosapride.com/index.php/2018/04/23/post-810/) - manage node+npm version
+- [yarn install (JP)](https://qiita.com/suisui654/items/1b89446e03991c7c2c3d) (faster npm) 
+- [rift-explorer](https://github.com/Pupix/rift-explorer) - API reference. You can test League Client API call
+- [lcu-connector](https://github.com/pupix/lcu-connector) - You can call League Client APIs in Node.js
+- [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - You can learn how to use lcu-connector
+- [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron)
+- [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
+- [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
+- [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
+- [League Client APIs (Riot Games)](https://developer.riotgames.com/league-client-apis.html) - About League Client API
+- [Communication Channel Refresh (Riot Games)](https://www.riotgames.com/en/DevRel/new-comms) - Discord channel #lcu-api and #api-challenge-2018 are helpful. See pins!
+- [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
+- [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
+- [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
+- [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
+- [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
+- [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
+- A Twitch viewer recommended Visual Studio Code Editor for me. Thanks.
+- [Quick Note of this README (JP)(My blog)](https://ulg0.blogspot.com/2019/01/the-riot-games-api-challenge-2018.html)
+
+## FAQ
 
 - Which technologies do you use?
 
->Node.js, npm, yarn, Electron, JavaScript, HTML, Bootstrap, Git, Wireshark, Fiddler 4, HttpRequest, SubLime(Editor), Visual Studio Code(Editor), Chromium Embedded Framework(CEF)
+>Node.js, npm, yarn, Electron, JavaScript, HTML, Bootstrap, Git, Wireshark, Fiddler 4, HttpRequest, SubLime(Editor), Visual Studio Code(Editor)
 
 - Why did you chose them?
 
->Because I wanted friends use the app easily. First, I was going to create web app with Express, Pug, Google App Engine. But I noticed I couldn't call League Client API from internet. If my friends want to use the app, they need to install some unpopular softwares and need effort to learn them. Although I spend around 2 weeks to learn them.
+>Because I wanted friends use the app easily. and there are many samples like rift-explorer, lcu-connector, Pyke_LoL. First, I was going to create web app with Express, Pug, Google App Engine. But I noticed I couldn't call League Client API from internet. If my friends want to use the app, they need to install some unpopular softwares and need effort to learn them. Although I spend around 2 weeks to learn Express, Pug.
 
 - How did you learn about them?
 
@@ -117,36 +142,19 @@ yarn dist
 
 >Yes. After the contest end. I already created features getting current names but it need unallowed APIs. Getting last played date too.
 
-# Task
+# Tasks
+
 - [x] Get current summoner name (not includ yet but finished)
 - [x] Get last played date from lol-carreer-stats (not include yet but finished)
 - [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
 - [ ] Understand Async/Await (I counldn't use Async. So I used IPC for synchronous request loop)
 - [ ] Get correct last played date (I can't get correct lol-carreer-stats. some friend's date is older or null)
-
-# Thanks and References
-
-I counldn't create this app without them.
-
-- [rift-explorer](https://github.com/Pupix/rift-explorer) - API reference. You can test League Client API call easily
-- [lcu-connector](https://github.com/pupix/lcu-connector) - You can call League Client APIs in Node.js
-- [Pyke_Client_LoL](https://github.com/systeme-cardinal/Pyke_Client_LoL) - You can learn how to use lcu-connector
-- [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron)
-- [electron-quick-start](https://github.com/electron/electron-quick-start) - I started to create this app from this
-- [electron-builder](https://github.com/electron-userland/electron-builder) - You can make exe of an electron app
-- [Community Dragon](https://github.com/CommunityDragon/Docs/blob/master/assets.md) - online asset (exp. summoner icon image)
-- [League Client APIs (Riot Games)](https://developer.riotgames.com/league-client-apis.html) - About League Client API
-- [Communication Channel Refresh (Riot Games)](https://www.riotgames.com/en/DevRel/new-comms) - Discord channel #lcu-api and #api-challenge-2018 are helpful. See pins!
-- [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
-- [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
-- [Let's try to create an Electron app (Japanese)](https://qiita.com/Quramy/items/a4be32769366cfe55778)
-- [Electron Main process Http Request (via auth proxy)(Japanese)](https://qiita.com/yk-nakamura/items/16c0606012bb0e7c92fa)
-- [Electron communication process by IPC(Japanese)](https://qiita.com/Misumi_Rize/items/dde76dbf89abee13991c)
-- [async/await with forEach(Japanese)](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd#foreach%E3%81%A7asyncawait)
-- A Twitch viewer recommended Visual Studio Code Editor for me. Thanks.
+- [ ] When I close League client, my app can't call API untill restart. lcu-connecter stop() is key I think
+- [ ] I want to sort friend list by last played date 
 
 ## Next
-Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, I can get the became friend date from lol-store, and mission notification.
+
+Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, I can get the date of became friend from lol-store, and mission notification.
 
 ## Me
 
