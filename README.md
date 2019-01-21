@@ -55,7 +55,6 @@ Download the friend list as text
 ## To develop
 
 To clone and run this repository you'll need them.
-
 More references [jump](#Thanks-and-References)
 
 1. [Git](https://git-scm.com/downloads)
