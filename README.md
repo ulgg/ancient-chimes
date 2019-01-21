@@ -55,6 +55,7 @@ Download the friend list as text
 ## To develop
 
 To clone and run this repository you'll need them.
+
 More references [jump](#Thanks-and-References)
 
 1. [Git](https://git-scm.com/downloads)
@@ -84,7 +85,7 @@ yarn dist
 
 My learning history.
 
-You can create an app using League Client API too. Like send an notification, send a message, change summoner icon.
+You can create an app using League Client API too. Like send a notification, send a message, change summoner icon.
 
 - [Git install - even monkey can understand (JP)](https://backlog.com/ja/git-tutorial/intro/intro2_1.html)
 - [nvm+Node.js+npm install (JP)](https://mosapride.com/index.php/2018/04/23/post-810/) - manage node+npm version
