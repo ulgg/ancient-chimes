@@ -83,7 +83,7 @@ yarn dist
 
 # Thanks and References
 
-My learning history.
+My learning history. [Quick Note of this README (JP)(My blog)](https://ulg0.blogspot.com/2019/01/the-riot-games-api-challenge-2018.html)
 
 You can create an app using League Client API too. Like send a notification, send a message, change summoner icon.
 
@@ -106,7 +106,6 @@ You can create an app using League Client API too. Like send a notification, sen
 - [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
 - A [Twitch](https://www.twitch.tv/ulg_) viewer recommended Visual Studio Code Editor for me. Thanks.
-- [Quick Note of this README (JP)(My blog)](https://ulg0.blogspot.com/2019/01/the-riot-games-api-challenge-2018.html)
 
 ## FAQ
 
