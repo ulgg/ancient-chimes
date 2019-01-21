@@ -89,7 +89,7 @@ You can create an app using League Client API too. Like send a notification, sen
 
 - [Git install - even monkey can understand (JP)](https://backlog.com/ja/git-tutorial/intro/intro2_1.html)
 - [nvm+Node.js+npm install (JP)](https://mosapride.com/index.php/2018/04/23/post-810/) - manage node+npm version
-- [yarn install (JP)](https://qiita.com/suisui654/items/1b89446e03991c7c2c3d) (faster npm) 
+- [yarn install (JP)](https://qiita.com/suisui654/items/1b89446e03991c7c2c3d) - faster npm
 - [Visual Studio Code (Editor) Electron debugging](https://github.com/Microsoft/vscode-recipes/tree/master/Electron) - IDE
 - [rift-explorer](https://github.com/Pupix/rift-explorer) - API reference. You can test League Client API call
 - [lcu-connector](https://github.com/pupix/lcu-connector) - You can call League Client APIs in Node.js
