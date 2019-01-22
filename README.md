@@ -2,7 +2,13 @@
 
 League of Legends Friend List Exporter using League Client API (LCU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6bJzaUaVFqA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+6bJzaUaVFqA
+
+[![Ancient Chimes Demo | League Client API](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6bJzaUaVFqA
+" target="_blank"><img src="http://img.youtube.com/vi/6bJzaUaVFqA/0.jpg" 
+alt="Ancient Chimes Demo | League Client API" width="240" height="180" border="10" /></a>
 
 ## Installation & Setup
 
