@@ -2,7 +2,7 @@
 
 League of Legends Friend List Exporter using League Client API (LCU)
 
-6bJzaUaVFqA
+YouTube
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6bJzaUaVFqA
 " target="_blank"><img src="http://img.youtube.com/vi/6bJzaUaVFqA/0.jpg" 
