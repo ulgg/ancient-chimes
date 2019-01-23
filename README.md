@@ -88,7 +88,7 @@ yarn dist
 
 # Thanks and References
 
-My learning history. [Quick Note of this README (JP)(My blog)](https://ulg0.blogspot.com/2019/01/the-riot-games-api-challenge-2018.html)
+My learning history. [Quick Note of this README (JP)](https://ulg0.blogspot.com/2019/01/the-riot-games-api-challenge-2018.html)
 
 You can create an app using League Client API too. Like send a notification, send a message, change summoner icon.
 
@@ -136,11 +136,11 @@ You can create an app using League Client API too. Like send a notification, sen
 
 - How are you planning on using the data you gather from this API?
 
->Download friend list for saving current friend's summoner name. If you transfer your account to other region once and you come back the old region. You can recovery friends from the list. If you have sub account, you can add friends from the list.
+>Download friend list for saving current friend's summoner name. If you transfer your account to other region once and you come back the old region. You can recovery friends from the list. If you have sub account, you can add same friends from the list.
 
 - Why did you create this?
 
->For entry to [The Riot Games API Challenge 2018](https://www.riotgames.com/en/DevRel/the-riot-games-api-challenge-2018). I wanted to download friend list when I transfered my NA account to Japan server 3 years ago. And I and my friend wish friend list would have last login date. Then we can remove some unactive friends and find new friends.
+>I wanted to download friend list when I transfered my NA account to Japan server 3 years ago. I and my friend wished friend list would have last login date. Then we can remove some non active friends and find new friends. and I wanted to entry to [The Riot Games API Challenge 2018](https://www.riotgames.com/en/DevRel/the-riot-games-api-challenge-2018). 
 
 - I can't find/add friend!
 
@@ -152,8 +152,8 @@ You can create an app using League Client API too. Like send a notification, sen
 
 # Tasks
 
-- [x] Get current summoner name (not include yet but finished)
-- [x] Get last played date from lol-carreer-stats (not include yet but finished)
+- [x] Import friend list and get current summoner name (not include yet but finished)
+- [x] Get last played date (not include yet but finished)
 - [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
 - [ ] Understand Async/Await (I counldn't use Async. So I used IPC for synchronous request loop)
 - [ ] Get correct last played date (I can't get correct lol-carreer-stats. some friend's date is older or null)
@@ -170,7 +170,7 @@ Playing Games and Drawing.
 
 I hope that this app'll help other players to create apps using League Client API(LCU). :)
 
-[Twitter](https://twitter.com/ulg_) / [League of Legends(opgg)](http://jp.op.gg/summoner/userName=ulg) / [Twitch](https://www.twitch.tv/ulg_) / [pixiv](https://pixiv.me/ulg)
+[Twitter](https://twitter.com/ulg_) / [League of Legends (JP) ulg](http://jp.op.gg/summoner/userName=ulg) / [Twitch](https://www.twitch.tv/ulg_) / [pixiv](https://pixiv.me/ulg)
 
 ## License
 
