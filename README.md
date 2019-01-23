@@ -136,7 +136,7 @@ You can create an app using League Client API too. Like send a notification, sen
 
 - How are you planning on using the data you gather from this API?
 
->Download friend list for saving current friend's summoner name. If you transfer your account to other region once and you come back the old region. You can recovery friends by the exported friend list.
+>Download friend list for saving current friend's summoner name. If you transfer your account to other region once and you come back the old region. You can recovery friends from the list. If you have sub account, you can add friends from the list.
 
 - Why did you create this?
 
