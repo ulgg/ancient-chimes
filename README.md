@@ -152,13 +152,13 @@ You can create an app using League Client API too. Like send a notification, sen
 
 # Tasks
 
-- [x] Import friend list and get current summoner name (not include yet but finished)
-- [x] Get last played date (not include yet but finished)
+- [x] Import friend list and get current summoner name (never release. but I created it once. it need unallowed API)
+- [x] Get last played date (never release. unallowed API)
 - [ ] Reduce time to get last played date (very slow. around 5 min for getting 311 friends (.-.))
 - [ ] Understand Async/Await (I counldn't use Async. So I used IPC for synchronous request loop)
-- [ ] Get correct last played date (I can't get correct lol-carreer-stats. some friend's date is older or null)
+- [ ] Get correct last played date (I can't get correct date from lol-carreer-stats. some friend's date is older or null)
 - [ ] When I close League client, my app can't call API untill restart. lcu-connecter stop() is key I think
-- [ ] I want to sort friend list by last played date 
+- [ ] I want to sort friend list by last played date (never release. unallowed API)
 
 ## Next
 
