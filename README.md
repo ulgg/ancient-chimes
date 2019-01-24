@@ -148,7 +148,7 @@ You can create an app using League Client API too. Like send a notification, sen
 
 - Will you add some features to soulve them?
 
->Yes. After the contest end. I already created features getting current names but it need unallowed APIs. Getting last played date too.
+>No. I can't use some API, they are unalloewd unfortunity. I can't get that current names and last played date.
 
 # Tasks
 
@@ -162,7 +162,7 @@ You can create an app using League Client API too. Like send a notification, sen
 
 ## Next
 
-Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, I can get the date of became friend from lol-store, and mission notification.
+Interested in League Voice with discord voice, notification +-LP at end of game every 1 hour for twitch streaming, and mission notification.
 
 ## Me
 
