@@ -59,9 +59,7 @@ Download the friend list as text
 
 ## To develop
 
-To clone and run this repository you'll need them.
-
-More references [jump](#Thanks-and-References)
+To clone and run this repository you'll need them. More [References](#Thanks-and-References)
 
 1. [Git](https://git-scm.com/downloads)
 2. [Node.js](https://nodejs.org/en/download/) (with [npm](http://npmjs.com)) 
