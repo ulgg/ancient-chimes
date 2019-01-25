@@ -111,6 +111,7 @@ You can create an app using League Client API too. Like send a notification, sen
 - [THE ARCHITECTURE OF THE LEAGUE CLIENT UPDATE (Riot Games)](https://engineering.riotgames.com/news/architecture-league-client-update)
 - [League Client Update Extra Insights](https://medium.com/@behrmann/league-client-update-extra-insights-f9f05c427657)
 - A [Twitch](https://www.twitch.tv/ulg_) viewer recommended Visual Studio Code Editor for me. Thanks.
+- My friend 魚児在河里游泳 has same idea. and we wish if friend list would have last login date.
 
 ## FAQ
 
