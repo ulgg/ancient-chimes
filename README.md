@@ -167,7 +167,7 @@ Interested in League Voice with discord voice, notification +-LP at end of game 
 
 Playing Games and Drawing.
 
-I hope that this app'll help other players to create apps using League Client API(LCU). :)
+I hope that this app'll help other players to create apps using League Client API(LCU)  :)
 
 [Twitter](https://twitter.com/ulg_) / [League of Legends (JP) ulg](http://jp.op.gg/summoner/userName=ulg) / [Twitch](https://www.twitch.tv/ulg_) / [pixiv](https://pixiv.me/ulg)
 
